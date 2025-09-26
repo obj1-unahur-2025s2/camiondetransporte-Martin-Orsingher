@@ -2,14 +2,15 @@ import camion.*
 import cosas.*
 
 describe "Test del camion"{
-
+/*
   method initialize() {
     camion.cargar(knightRider)
-    camion.cargar(arena)
     arena.peso(200)
+    camion.cargar(arena)
     paqueteDeLadrillos.cantidad(10)
     camion.cargar(paqueteDeLadrillos)
   }
+*/
 
   test "el camion tiene un peso total de 1720" {
     assert.equals(1720, camion.pesoTotal())
